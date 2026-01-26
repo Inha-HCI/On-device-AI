@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: "/OnDevice-AI",
   siteMetadata: {
-    title: `HCI LAB`,
-    description: `INHA University HCI LAB`,
+    title: `On-Device AI Lab`,
+    description: `INHA University On-Device AI Lab`,
     siteUrl: `https://inha-hci.github.io/`,
     labInfomation: {
       address: "인천광역시 미추홀구 인하로 100, 인하대학교 하이테크관 1313호",
@@ -139,4 +139,5 @@ module.exports = {
     `gatsby-plugin-client-side-redirect`,
   ],
 }
+
 
