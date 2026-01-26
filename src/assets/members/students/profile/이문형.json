@@ -1,8 +1,0 @@
-{
-  "priority": 30,
-  "type": "Alumni",
-  "name": "이문형",
-  "email": "mun0659@inha.edu",
-  "interested": ["Abnormal detection", "Deep learning", "Sturucture Analaysis"],
-  "github": "https://github.com/Munggoose"
-}
