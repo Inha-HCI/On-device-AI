@@ -36,7 +36,7 @@ const Footer = () => {
         <div className={FooterStyle.footerContent}>
           <span>{site.siteMetadata.labInfomation.address}</span>
           <span>
-            Copyright © {new Date().getFullYear()} HCI Laboratory, Inha
+            Copyright © {new Date().getFullYear()} On-Device AI Laboratory, Inha
             University
           </span>
         </div>
