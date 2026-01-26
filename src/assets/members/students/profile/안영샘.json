@@ -1,0 +1,12 @@
+{
+  "priority": 2,
+  "type": "Ph.D. Students",
+  "name": "안영샘",
+  "email": "ahnsaem90@gmail.com",
+  "interested": [
+    "Simulation Development",
+    "Deep learning",
+    "Autonomous Driving"
+  ],
+  "group": "OnDevice"
+}

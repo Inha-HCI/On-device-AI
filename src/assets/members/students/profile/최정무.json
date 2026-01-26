@@ -1,0 +1,8 @@
+{
+  "priority": 1,
+  "type": "Undergraduated students",
+  "name": "최정무",
+  "email": "cjm4788@gmail.com",
+  "interested": ["Reverse Engineering", "Data preprocessing"],
+  "group": "OnDevice" 
+}

@@ -1,0 +1,10 @@
+{
+  "priority": 7,
+  "type": "M.S. Students",
+  "name": "박근원",
+  "email": "turbine244@gmail.com",
+  "github": "https://github.com/turbine244",
+  "interested": ["Digital Signal Processing", "Embedded Systems"],
+  "group": "OnDevice" 
+
+}

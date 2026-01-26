@@ -1,0 +1,8 @@
+{
+  "priority": 22,
+  "type": "Alumni",
+  "name": "신기철",
+  "email": "kichoul641@gmail.com",
+  "interested": ["Data Unbalance", "Serial Data Learning", "Signal Processing"],
+  "degree": "MS 2022"
+}

@@ -1,0 +1,10 @@
+{
+    "priority": 35,
+    "type": "Alumni",
+    "name": "이준표",
+    "email": "standard_lee@inha.edu",
+    "github": "https://github.com/Gaebobman",
+    "interested": ["Timeseries", "LLM", "Android", "On-device AI"],
+    "degree": "MS"
+  }
+  

@@ -1,0 +1,13 @@
+{
+  "priority": 20,
+  "type": "Alumni",
+  "name": "홍수웅",
+  "email": "hsw2012s@gmail.com",
+  "interested": [
+    "Vibration engineering",
+    "Machine learning",
+    "Abnormal detection"
+  ],
+  "company": "Samsung Electronics",
+  "degree": "MS 2022"
+}
