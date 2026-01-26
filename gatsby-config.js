@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/OnDevice-AI",
   siteMetadata: {
     title: `HCI LAB`,
     description: `INHA University HCI LAB`,
@@ -138,3 +139,4 @@ module.exports = {
     `gatsby-plugin-client-side-redirect`,
   ],
 }
+
