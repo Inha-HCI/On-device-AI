@@ -1,8 +1,9 @@
 {
   "priority": 1,
-  "type": "Intergrated PhD Students",
+  "type": "Alumni",
   "name": "정회준",
   "email": "bekdoobekdoo@naver.com",
+  "company": "롯데이노베이트",
   "interested": ["GNN"],
   "group": "OnDevice"
 }

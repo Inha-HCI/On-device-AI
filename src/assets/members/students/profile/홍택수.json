@@ -1,8 +1,8 @@
 {
-    "priority": 6,
+    "priority": 1,
     "type": "M.S. Students",
     "name": "홍택수",
-    "interested": ["Computer Vision","ROS","Backend"],
+    "interested": ["Diffusion", "VLM"],
     "email": "hong2hwa58@inha.edu",
     "github": "https://github.com/Logy-CTO"
   }

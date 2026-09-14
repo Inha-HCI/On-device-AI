@@ -7,6 +7,38 @@ const Projects = () => {
     <ContentWrapper>
       <h4>Projects</h4>
       <div className={ProjectStyle.projects}>
+        <h6 className={ProjectStyle.sectionTitle}>On-going</h6>
+        <ul className={ProjectStyle.ongoing}>
+          <li>
+            산업 특화 Physical AI 파운데이션 모델 개발 및 차세대 융합형 인재양성
+            (P1Y1)
+            <span className={ProjectStyle.partner}>
+              산학협력 · 롯데이노베이트
+            </span>
+          </li>
+          <li>
+            가동원전 일차계통 지능형 건전성 진단을 위한 인공지능 학습모델 개발
+            <span className={ProjectStyle.partner}>
+              산학협력 · 한국원자력연구원
+            </span>
+          </li>
+          <li>
+            회전설비 인공지능형 진동 감시 시스템 개발(2단계 2차년도)
+            <span className={ProjectStyle.partner}>
+              산학협력 · 한국원자력연구원
+            </span>
+          </li>
+          <li>
+            (국고-7차년도) ICT-미래자동차 융합 교육연구단
+          </li>
+          <li>
+            미래형자동차 핵심기술 전문인력 양성사업(3단계 1차년도)
+          </li>
+          <li>
+            SW중심대학(P2Y1) 사업단
+          </li>
+        </ul>
+        <h6 className={ProjectStyle.sectionTitle}>Past</h6>
         <ul>
           <li>
             [교비]스마트한 주파수 이용을 위한 스펙트럼 및
