@@ -54,6 +54,9 @@ const ProfessorInfo = () => {
               <span>
                 <span>2012~</span>인하대학교 교수
               </span>
+              <span>
+                <span>2023~</span>인하대학교 SW중심대학사업단장
+              </span>
             </div>
           </div>
         </div>

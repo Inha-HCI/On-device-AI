@@ -39,6 +39,12 @@ const Papers = () => {
         <h6 className={PaperStyle.sectionTitle}>2025</h6>
         <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
+            <a href="https://ieeexplore.ieee.org/document/11145036">
+              J. Lee, J. Choi, J. M. Park, Y. J. Lim, H. J. Jung, S. Kang, C. An and J. W. Kwon. "Anomaly Detection Using Generative Language Models and Deep Feature-Based Time Series Similarity," <em>IEEE Access</em>, 2025.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
             <a href="https://doi.org/10.3390/s25144383">
               H. Jeong, S. Kim, D. Seo and J. W. Kwon. "Source‑Free Domain Adaptation Framework for Rotary Machine Fault Diagnosis," <em>Sensors</em>, 2025.
               <AiOutlineLink />

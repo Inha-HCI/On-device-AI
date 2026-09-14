@@ -47,8 +47,8 @@ const ResearchTopics = () => {
     <ContentWrapper>
       <h4>Research Topics</h4>
       <p>
-        Human–Computer Interaction (HCI) studies the design and use of computer
-        technology, focused on the interfaces between people (users) and
+        On-Device AI Lab studies the design and use of computer
+        technology, focused on the optimizing the interaction between people (users) and
         computers.
       </p>
       <p>We work in the following areas</p>
