@@ -8,8 +8,36 @@ const Papers = () => {
     <ContentWrapper>
       <div>
         <h4>International</h4>
-        <ul className={PaperStyle.list}>
-          {/* ---------- 2025 ---------- */}
+        <h6 className={PaperStyle.sectionTitle}>2026</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
+          <li>
+            <a href="https://ieeexplore.ieee.org/document/11616562">
+              T. S. Hong, D. H. Seo, H. J. Jeong and J. W. Kwon. "On-Device Edge-Gated Attention and FFT for Smartphone-Based Aggressive Driving Detection," <em>IEEE Access</em>, 2026.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/11570120">
+              H. J. Jeong, D. H. Seo, S. H. Lee, S. H. Kim and J. W. Kwon. "A Multimodal Framework for Vibration Signals via Knowledge-Guided Preprocessing (O-XSTFT) and Reconstruction-Contrastive Tokenization (ReCoFormer)," <em>IEEE Access</em>, 2026.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.mdpi.com/2076-3417/16/11/5333">
+              S. H. Kim, H. J. Jeong, S. i. Shin and J. W. Kwon. "A Non-Autoregressive Spatiotemporal Framework for Offline Full-Matrix Origin–Destination Forecasting in Large-Scale Metro Networks," <em>Applied Sciences</em>, 2026.
+              <AiOutlineLink />
+            </a>
+          </li>
+          <li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/11458819">
+              B. Shukhratov, S. Baydadaev and J. W. Kwon. "Efficient LLM Adaptation to Low-Resource Languages via Cross-Lingual Semantic Anchoring," <em>IEEE Access</em>, 2026.
+              <AiOutlineLink />
+            </a>
+          </li>
+
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2025</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             <a href="https://doi.org/10.3390/s25144383">
               H. Jeong, S. Kim, D. Seo and J. W. Kwon. "Source‑Free Domain Adaptation Framework for Rotary Machine Fault Diagnosis," <em>Sensors</em>, 2025.
@@ -23,7 +51,9 @@ const Papers = () => {
             </a>
           </li>
 
-          {/* ---------- 2024 (month‑desc approx.) ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2024</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             <a href="https://doi.org/10.3390/s24237865">
               H. Jeong, J. Kim, D. Jung and J. W. Kwon. "Deep‑Learning and Dynamic Time Warping‑Based Approaches for the Diagnosis of Reactor Systems," <em>Sensors</em>, 2024.
@@ -55,7 +85,9 @@ const Papers = () => {
             </a>
           </li>
 
-          {/* ---------- 2023 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2023</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             <a href="https://doi.org/10.3390/s23042103">
               S. Usmankhujaev, S. Baydadaev and J. W. Kwon. "Accurate 3D‑to‑2D Object Distance Estimation from the Mapped Point Cloud Data," <em>Sensors</em>, 2023.
@@ -63,7 +95,9 @@ const Papers = () => {
             </a>
           </li>
 
-          {/* ---------- 2022 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2022</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             <a href="https://doi.org/10.3390/s22010157">
               S. Usmankhujaev, B. Ibrokhimov, S. Baydadaev and J. W. Kwon. "Time Series Classification with InceptionFCN," <em>Sensors</em>, 2022.
@@ -71,7 +105,9 @@ const Papers = () => {
             </a>
           </li>
 
-          {/* ---------- 2021 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2021</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             Seon‑Woo Lee, Ho‑Jun Yang, Mun‑Hyung Lee, Jung‑Moo Choi, Se‑Hwan Yun, Jang‑Woo Kwon, Ji‑Hoon Park, Dong‑Hee Jung, Hye‑Jung Shin. "A Study on the Air Pollution Monitoring Network Algorithm Using Deep Learning," <em>Journal of Convergence for Information Technology</em>, 11(11), 57‑65, 2021.
           </li>
@@ -82,7 +118,9 @@ const Papers = () => {
             </a>
           </li>
 
-          {/* ---------- 2020 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2020</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             A Filament Supply System Capable of Remote Monitoring and Automatic Humidity Control for 3D Printer, <em>Journal of Sensors</em>, 2020
           </li>
@@ -93,7 +131,9 @@ const Papers = () => {
             Extreme Low‑Light Image Enhancement for Surveillance Cameras Using Attention U‑Net, <em>Sensors</em>, 20(2), 2020
           </li>
 
-          {/* ---------- 2019 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2019</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             <a href="https://doi.org/10.3390/electronics13214253">
               Parallel Image Captioning Using 2D Masked Convolution, <em>Applied Sciences‑Basel</em>, 9(9), 2019
@@ -101,7 +141,9 @@ const Papers = () => {
             </a>
           </li>
 
-          {/* ---------- 2018 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2018</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             Detection of Potholes Using a Deep Convolutional Neural Network, <em>Journal of Universal Computer Science</em>, 24(9), pp. 1244‑1257, 2018
           </li>
@@ -112,7 +154,9 @@ const Papers = () => {
             Detecting Ghost Targets Using Multilayer Perceptron in Multiple‑Target Tracking, <em>Symmetry‑Basel</em>, 10(1), 2018
           </li>
 
-          {/* ---------- 2016 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2016</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             Adaptive Image Matching Using Discrimination of Deformable Objects, <em>Symmetry‑Basel</em>, 8(7), 2016
           </li>
@@ -120,7 +164,9 @@ const Papers = () => {
             Recommendation Application for Video Head Impulse Test Based on Fuzzy Logic Control, <em>Journal of Central South University</em>, 23(5), pp. 1208‑1214, 2016
           </li>
 
-          {/* ---------- 2014 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2014</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             A Variable Step‑Size Feedback Cancellation Algorithm Based on GSAP for Digital Hearing Aids, <em>IEICE Trans. Fundamentals</em>, E97‑A(7), pp. 1615‑1618, 2014
           </li>
@@ -128,7 +174,9 @@ const Papers = () => {
             State Machine and Downhill Simplex Approach for Vision‑Based Nighttime Vehicle Detection, <em>ETRI Journal</em>, 36, pp. 439‑449, 2014
           </li>
 
-          {/* ---------- 2013 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2013</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             A Novel Lattice Reduction Precoding Method, <em>Wireless Personal Communications</em>, 70(1), pp. 283‑293, 2013
           </li>
@@ -136,12 +184,16 @@ const Papers = () => {
             A Distributed Cooperative MAC Protocol for QoS Improvement and Mobility Support in WiMedia Networks, <em>Wireless Personal Communications</em>, 69(4), pp. 1143‑1164, 2013
           </li>
 
-          {/* ---------- 2012 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2012</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             Personalized Document Summarization Using Pseudo Relevance Feedback and Semantic Feature, <em>IETE Journal of Research</em>, 58(2), pp. 155‑165, 2012
           </li>
 
-          {/* ---------- 2011 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2011</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             Effects of the Inclination Direction of Vicinal m‑Plane Sapphire Substrates on the Crystal Quality of m‑Plane GaN Film, <em>Journal of Crystal Growth</em>, 325(1), pp. 85‑88, 2011
           </li>
@@ -155,17 +207,23 @@ const Papers = () => {
             Efficient Interference Cancellation Scheme for Wireless Body Area Network, <em>Journal of Communications and Networks</em>, 13(2), pp. 167‑174, 2011
           </li>
 
-          {/* ---------- 2010 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2010</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             A Novel Opportunistic Greedy Forwarding Scheme in Wireless Sensor Networks, <em>KSII Transactions on Internet and Information Systems</em>, 4(5), 2010
           </li>
 
-          {/* ---------- 2009 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2009</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             Large‑Scale Joint Rate and Power Allocation Algorithm Combined with Admission Control in Cognitive Radio Networks, <em>Journal of Communications and Networks</em>, 11(2), 2009
           </li>
 
-          {/* ---------- 2006 ---------- */}
+        </ul>
+        <h6 className={PaperStyle.sectionTitle}>2006</h6>
+        <ul className={`${PaperStyle.list} ${PaperStyle.yearList}`}>
           <li>
             Color Preference and Personality Modeling Using Fuzzy Reasoning Rule, <em>Lecture Notes in Computer Science</em>, 3984(2006), 2006
           </li>

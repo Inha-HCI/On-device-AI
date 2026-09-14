@@ -1,8 +1,8 @@
 {
-  "priority": 4,
-  "type": "Undergraduated students",
+  "priority": 10,
+  "type": "M.S. Students",
   "name": "임서현",
   "email": "dlatjgus0528@naver.com",
   "github": "https://github.com/mainsprout",
-  "interested": ["Backend"]
+  "interested": ["LLM", "Backend"]
 }

@@ -1,3 +1,32 @@
 .projects ul {
-  list-style: inside;
+  list-style: disc outside;
+  padding-left: 1.25rem;
+}
+
+.sectionTitle {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.ongoing li {
+  margin-bottom: 1rem;
+}
+
+.ongoing + .sectionTitle {
+  margin-top: 2rem;
+}
+
+.partner {
+  display: inline-block;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.25rem;
+  background-color: #eef5fa;
+  color: #32336e;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.5;
 }

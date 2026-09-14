@@ -10,6 +10,18 @@ interface MediaFile {
   publicURL: string
 }
 
+const topicOrder = [
+  "Physical AI",
+  "LLMs & Multimodal AI",
+  "XR & Edge AI",
+  "AI-based Anomaly Detection",
+]
+
+const getTopicOrder = (name: string) => {
+  const index = topicOrder.indexOf(name)
+  return index === -1 ? topicOrder.length : index
+}
+
 const ResearchTopics = () => {
   const {
     allFile: { nodes },
@@ -25,49 +37,33 @@ const ResearchTopics = () => {
     }
   `)
 
+  const orderedTopics = [...nodes].sort(
+    (a, b) =>
+      getTopicOrder(a.name) - getTopicOrder(b.name) ||
+      a.name.localeCompare(b.name)
+  )
+
   return (
     <ContentWrapper>
       <h4>Research Topics</h4>
       <p>
-        On-Device AI Lab studies the design and use of computer
-        technology, focused on the optimizing the interaction between people (users) and
+        Human–Computer Interaction (HCI) studies the design and use of computer
+        technology, focused on the interfaces between people (users) and
         computers.
       </p>
       <p>We work in the following areas</p>
       <div className={ResearchTopicsStyle.contentWrapper}>
-        <div>
-          {nodes
-            .reverse()
-            .filter((node, idx) => idx % 2 === 0)
-            .map(node => {
-              return (
-                <Media
-                  src={node.publicURL}
-                  video={node.extension === "mp4"}
-                  label={node.name}
-                  key={node.name}
-                />
-              )
-            })}
-        </div>
-        <div>
-          {nodes
-            .filter((node, idx) => idx % 2 !== 0)
-            .map(node => {
-              return (
-                <Media
-                  src={node.publicURL}
-                  video={node.extension === "mp4"}
-                  label={node.name}
-                  key={node.name}
-                />
-              )
-            })}
-        </div>
+        {orderedTopics.map(node => (
+          <Media
+            src={node.publicURL}
+            video={node.extension === "mp4"}
+            label={node.name}
+            key={node.publicURL}
+          />
+        ))}
       </div>
     </ContentWrapper>
   )
 }
 
 export default ResearchTopics
-
