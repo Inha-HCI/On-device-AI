@@ -75,7 +75,7 @@ const StudentInfo = () => {
   // 3. Define the Group Categories
   const groups = [
     "Ph.D. Students",
-    "Intergrated PhD Students",
+    "Integrated PhD Students",
     "M.S. Students",
     "Undergraduated students",
     "Alumni",

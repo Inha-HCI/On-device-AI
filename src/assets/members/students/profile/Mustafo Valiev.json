@@ -1,0 +1,9 @@
+{
+  "priority": 11,
+  "type": "Integrated PhD Students",
+  "name": "Mustafo Valiev",
+  "email": "valievm777@gmail.com",
+  "github": "https://github.com/MustafoValiev",
+  "interested": ["AI", "Machine Learning", "Neuro-Symbolic AI", "Knowledge Representation", "Reasoning"],
+  "group": "OnDevice" 
+}
